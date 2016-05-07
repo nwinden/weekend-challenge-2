@@ -1,0 +1,23 @@
+body{
+  background-color: grey;
+}
+
+h2{
+  text-align: center;
+}
+
+.box{
+  width: 20px;
+  height: 20px;
+  border:1px solid red;
+  background-color: green;
+  display: inline-block;
+}
+
+.red{
+  background-color: red;
+}
+
+.prev, .next{
+  margin-top: 10px;
+}
