@@ -7,7 +7,6 @@ h1{
 }
 
 main{
-  position: relative;
   background-color: beige;
   margin:auto;
   width: 600px;
@@ -15,11 +14,6 @@ main{
   border-radius: 5px;
   text-align: center;
   position: static;
-}
-
-main button.absolute{
-position: absolute;
-top: 40px;
 }
 
 .box{
