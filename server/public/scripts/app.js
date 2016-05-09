@@ -37,7 +37,7 @@ $(document).ready(function(){
 
         $('.prev').on('click', changePerson);
 
-        $('main').on('click', '.box', boxClick);
+        $('body').on('click', '.box', boxClick);
 
         //changes the person to the next or previous person in the array
         function changePerson() {
