@@ -8,8 +8,8 @@ $(document).ready(function(){
         var spot = 0;
         //shorthand for the JSON array
         var people = data.mu;
-        //changes the current data being presented every 15 seconds
-        var timeoutID = window.setTimeout(changePerson, 15000);
+        //changes the current data being presented every 10 seconds
+        var timeoutID = window.setTimeout(changePerson, 10000);
 
         //changes the P tags on the dom to display the first information on the array
         $('.name').text('Name: ' + people[spot].name);
@@ -75,7 +75,7 @@ $(document).ready(function(){
           changeBox();
 
           //starts a new timer
-          timeoutID = window.setTimeout(changePerson, 15000);
+          timeoutID = window.setTimeout(changePerson, 10000);
 
         }
 
@@ -98,7 +98,7 @@ $(document).ready(function(){
           changeBox();
 
           //stats a new timer
-          timeoutID = window.setTimeout(changePerson, 15000);
+          timeoutID = window.setTimeout(changePerson, 10000);
 
         }
 
@@ -125,7 +125,7 @@ $(document).ready(function(){
           $('.shout').fadeIn('slow');
 
         }
-        
+
         //function that toggles the class on a specific div
         function changeBox(){
 
