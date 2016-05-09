@@ -2,15 +2,31 @@ body{
   background-color: grey;
 }
 
-h2{
+h1{
   text-align: center;
+}
+
+main{
+  position: relative;
+  background-color: beige;
+  margin:auto;
+  width: 600px;
+  height: 200px;
+  border-radius: 5px;
+  text-align: center;
+  position: static;
+}
+
+main button.absolute{
+position: absolute;
+top: 40px;
 }
 
 .box{
   width: 20px;
   height: 20px;
   border:1px solid red;
-  background-color: green;
+  background-color: grey;
   display: inline-block;
 }
 
