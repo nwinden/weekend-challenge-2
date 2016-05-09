@@ -10,17 +10,34 @@ main{
   background-color: beige;
   margin:auto;
   width: 600px;
-  height: 200px;
+  height: 130px;
   border-radius: 5px;
-  text-align: center;
   position: static;
+}
+
+main p{
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+main p:first-child{
+  padding-top:10px;
+}
+
+main p:last-child{
+  padding-bottom: 10px;
+}
+
+.index-spot{
+  margin-top: 10px;
+  margin-left:385px;
 }
 
 .box{
   width: 20px;
   height: 20px;
   border:1px solid red;
-  background-color: grey;
+  background-color: black;
   display: inline-block;
 }
 
@@ -30,4 +47,9 @@ main{
 
 .prev, .next{
   margin-top: 10px;
+}
+
+.prev{
+  margin-left:575px;
+
 }
